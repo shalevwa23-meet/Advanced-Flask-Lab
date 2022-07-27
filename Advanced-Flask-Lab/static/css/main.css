@@ -2376,7 +2376,7 @@
 /* Thumbnails */
 
 	.thumbnails {
-		display: -moz-flex;
+/*		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
@@ -2385,17 +2385,17 @@
 		-ms-flex-direction: row;
 		flex-direction: row;
 		position: relative;
-		margin: 0 0 2em -2em;
+		margin: 0 0 2em -2em;*/
 	}
 
 		.thumbnails a {
+			width: 30%;
 			-moz-transition: all 0.2s ease;
 			-webkit-transition: all 0.2s ease;
 			-ms-transition: all 0.2s ease;
 			transition: all 0.2s ease;
 			border-bottom: none;
-			display: block;
-			width: 100%;
+			display: inline-block;
 			margin: 0 0 2em 0;
 			text-align: center;
 			border-radius: 4px;
